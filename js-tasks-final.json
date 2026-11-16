@@ -1,0 +1,177 @@
+[
+  {
+    "start_ms": 626,
+    "from_fcp_ms": -2943,
+    "duration_ms": 426,
+    "activity": "DocumentLoader::CommitNavigation 390ms / DocumentLoader::StartLoadingResponse 368ms / DocumentLoader::CreateParserPostCommit 368ms / LocalWindowProxy::Initialize 235ms",
+    "cpu": "(program) 290ms / (anonymous)@_lighthouse-eval.js:7 12ms / (anonymous)@_lighthouse-eval.js:1 3ms / (idle) 1ms"
+  },
+  {
+    "start_ms": 1194,
+    "from_fcp_ms": -2375,
+    "duration_ms": 66,
+    "activity": "ParseHTML 59ms / RunMicrotasks 7ms",
+    "cpu": "(program) 66ms"
+  },
+  {
+    "start_ms": 1868,
+    "from_fcp_ms": -1701,
+    "duration_ms": 1655,
+    "activity": "Layout 1193ms / UpdateLayoutTree 332ms / Paint 46ms / PrePaint 27ms",
+    "cpu": "(program) 1654ms"
+  },
+  {
+    "start_ms": 3612,
+    "from_fcp_ms": 43,
+    "duration_ms": 62,
+    "activity": "EvaluateScript 61ms 4bd1b696-c7408084347438ae.js / v8.compile 60ms 4bd1b696-c7408084347438ae.js / ScriptCatchup 3ms / ScriptCatchup 1ms 4bd1b696-c7408084347438ae.js",
+    "cpu": "(program) 61ms / (anonymous)@4bd1b696-c7408084347438ae.js:0 1ms / (idle) 0ms"
+  },
+  {
+    "start_ms": 3675,
+    "from_fcp_ms": 106,
+    "duration_ms": 65,
+    "activity": "EvaluateScript 64ms 794-268803444e87b940.js / v8.compile 60ms 794-268803444e87b940.js / ScriptCatchup 6ms / ScriptCompiled 3ms ",
+    "cpu": "(program) 62ms / (anonymous)@794-268803444e87b940.js:0 2ms / (idle) 0ms"
+  },
+  {
+    "start_ms": 3744,
+    "from_fcp_ms": 175,
+    "duration_ms": 86,
+    "activity": "UpdateLayoutTree 3ms / Commit 3ms / HitTest 2ms / PrePaint 2ms",
+    "cpu": "(program) 86ms"
+  },
+  {
+    "start_ms": 3848,
+    "from_fcp_ms": 279,
+    "duration_ms": 926,
+    "activity": "EvaluateScript 926ms webpack-b2d5cf2be505bd53.js / ScriptCompiled 923ms  / v8.run 923ms / RunMicrotasks 129ms",
+    "cpu": "s@webpack-b2d5cf2be505bd53.js:59 696ms / 9248@4bd1b696-c7408084347438ae.js:81 30ms / (program) 9ms / i@794-268803444e87b940.js:25883 6ms"
+  },
+  {
+    "start_ms": 4952,
+    "from_fcp_ms": 1383,
+    "duration_ms": 156,
+    "activity": "Layout 105ms / PrePaint 18ms / UpdateLayoutTree 8ms / Paint 7ms",
+    "cpu": "(program) 156ms"
+  },
+  {
+    "start_ms": 5117,
+    "from_fcp_ms": 1547,
+    "duration_ms": 212,
+    "activity": "ParseHTML 211ms / EvaluateScript 203ms  / ScriptCompiled 195ms  / v8.run 195ms",
+    "cpu": "(program) 23ms / t@794-268803444e87b940.js:62795 11ms / H@794-268803444e87b940.js:60865 11ms / d@794-268803444e87b940.js:28356 9ms"
+  },
+  {
+    "start_ms": 5596,
+    "from_fcp_ms": 2027,
+    "duration_ms": 1145,
+    "activity": "Layout 597ms / UpdateLayoutTree 488ms / DocumentLoader::CommitNavigation 10ms / DocumentLoader::CommitNavigation 7ms",
+    "cpu": "(program) 1140ms / (idle) 4ms"
+  },
+  {
+    "start_ms": 6741,
+    "from_fcp_ms": 3172,
+    "duration_ms": 57,
+    "activity": "EventDispatch 11ms / PrePaint 9ms / v8.callFunction 7ms / FunctionCall 6ms 4bd1b696-c7408084347438ae.js",
+    "cpu": "(program) 40ms / (idle) 6ms / nR@4bd1b696-c7408084347438ae.js:20105 4ms / e9@4bd1b696-c7408084347438ae.js:10158 3ms"
+  },
+  {
+    "start_ms": 7894,
+    "from_fcp_ms": 4325,
+    "duration_ms": 119,
+    "activity": "v8.callFunction 119ms / FunctionCall 119ms 794-268803444e87b940.js / V8.StackGuard 2ms / V8.HandleInterrupts 2ms",
+    "cpu": "ug@4bd1b696-c7408084347438ae.js:110296 13ms / sP@4bd1b696-c7408084347438ae.js:141026 10ms / ua@4bd1b696-c7408084347438ae.js:104498 10ms / g@437-df77b441101c1a02.js:3847 10ms"
+  },
+  {
+    "start_ms": 8019,
+    "from_fcp_ms": 4450,
+    "duration_ms": 88,
+    "activity": "v8.callFunction 87ms / FunctionCall 84ms 794-268803444e87b940.js / RunMicrotasks 3ms / v8.callFunction 3ms",
+    "cpu": "iC@4bd1b696-c7408084347438ae.js:93807 21ms / setTimeout 10ms / (anonymous)@794-268803444e87b940.js:9559 8ms / (anonymous)@layout-3e7f0920b3f768b4.js:1449 6ms"
+  },
+  {
+    "start_ms": 8111,
+    "from_fcp_ms": 4542,
+    "duration_ms": 70,
+    "activity": "UpdateLayoutTree 27ms / FireAnimationFrame 9ms / v8.callFunction 8ms / Layerize 7ms",
+    "cpu": "(program) 64ms / (anonymous)@layout-3e7f0920b3f768b4.js:1777 2ms / dispatchEvent 2ms / l@page-4bc4be16fb83bc6e.js:47267 1ms"
+  },
+  {
+    "start_ms": 8190,
+    "from_fcp_ms": 4621,
+    "duration_ms": 117,
+    "activity": "v8.callFunction 117ms / FunctionCall 116ms 794-268803444e87b940.js / V8.StackGuard 1ms / V8.HandleInterrupts 1ms",
+    "cpu": "(anonymous)@4bd1b696-c7408084347438ae.js:133414 10ms / ug@4bd1b696-c7408084347438ae.js:110296 7ms / cm@4bd1b696-c7408084347438ae.js:161569 6ms / uv@4bd1b696-c7408084347438ae.js:115269 5ms"
+  },
+  {
+    "start_ms": 8308,
+    "from_fcp_ms": 4738,
+    "duration_ms": 159,
+    "activity": "RunMicrotasks 157ms / UpdateLayoutTree 102ms / Layout 26ms / V8.StackGuard 0ms",
+    "cpu": "l@page-4bc4be16fb83bc6e.js:47267 156ms / (idle) 1ms / (program) 1ms"
+  },
+  {
+    "start_ms": 8466,
+    "from_fcp_ms": 4897,
+    "duration_ms": 72,
+    "activity": "Paint 21ms / Layerize 20ms / Paint 17ms / Commit 10ms",
+    "cpu": "(program) 71ms / t_@4bd1b696-c7408084347438ae.js:26738 0ms"
+  },
+  {
+    "start_ms": 8608,
+    "from_fcp_ms": 5039,
+    "duration_ms": 186,
+    "activity": "UpdateLayoutTree 7ms / Commit 6ms / EventDispatch 6ms / v8.callFunction 4ms",
+    "cpu": "(program) 179ms / (idle) 4ms / (anonymous)@4bd1b696-c7408084347438ae.js:156067 2ms / nH@4bd1b696-c7408084347438ae.js:21146 1ms"
+  },
+  {
+    "start_ms": 9213,
+    "from_fcp_ms": 5643,
+    "duration_ms": 61,
+    "activity": "v8.callFunction 60ms / FunctionCall 59ms 794-268803444e87b940.js / RunMicrotasks 1ms / v8.callFunction 1ms",
+    "cpu": "(anonymous)@4bd1b696-c7408084347438ae.js:109732 40ms / ug@4bd1b696-c7408084347438ae.js:110296 6ms / up@4bd1b696-c7408084347438ae.js:109471 3ms / fC@4bd1b696-c7408084347438ae.js:190447 3ms"
+  },
+  {
+    "start_ms": 9608,
+    "from_fcp_ms": 6039,
+    "duration_ms": 89,
+    "activity": "v8.callFunction 88ms / FunctionCall 87ms 794-268803444e87b940.js / V8.StackGuard 2ms / V8.StackGuard 1ms",
+    "cpu": "removeChild 13ms / um@4bd1b696-c7408084347438ae.js:109809 11ms / nm@4bd1b696-c7408084347438ae.js:11706 11ms / uc@4bd1b696-c7408084347438ae.js:107910 9ms"
+  },
+  {
+    "start_ms": 9706,
+    "from_fcp_ms": 6137,
+    "duration_ms": 68,
+    "activity": "UpdateLayoutTree 20ms / Layerize 9ms / Commit 5ms / Paint 5ms",
+    "cpu": "(program) 67ms / t_@4bd1b696-c7408084347438ae.js:26738 1ms / (anonymous)@4bd1b696-c7408084347438ae.js:156067 1ms / f7@4bd1b696-c7408084347438ae.js:197236 0ms"
+  },
+  {
+    "start_ms": 10242,
+    "from_fcp_ms": 6673,
+    "duration_ms": 61,
+    "activity": "UpdateLayoutTree 15ms / Layerize 12ms / Commit 7ms / PrePaint 5ms",
+    "cpu": "(program) 60ms / nH@4bd1b696-c7408084347438ae.js:21146 1ms / nj@4bd1b696-c7408084347438ae.js:20969 1ms"
+  },
+  {
+    "start_ms": 10477,
+    "from_fcp_ms": 6908,
+    "duration_ms": 61,
+    "activity": "UpdateLayoutTree 17ms / Layerize 11ms / Commit 6ms / Paint 4ms",
+    "cpu": "(program) 61ms"
+  },
+  {
+    "start_ms": 11291,
+    "from_fcp_ms": 7722,
+    "duration_ms": 102,
+    "activity": "Paint 36ms / PrePaint 30ms / Layerize 18ms / IntersectionObserverController::computeIntersections 9ms",
+    "cpu": "(program) 102ms"
+  },
+  {
+    "start_ms": 11518,
+    "from_fcp_ms": 7948,
+    "duration_ms": 51,
+    "activity": "Layerize 46ms / PrePaint 1ms / UpdateLayoutTree 1ms / IntersectionObserverController::computeIntersections 1ms",
+    "cpu": "(program) 50ms"
+  }
+]

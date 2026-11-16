@@ -1,0 +1,38 @@
+// BRÜN Coffee Shop & Bakery — Central Media Assets
+// Single source of truth for interior, video, menu, and brand photography.
+
+export const MEDIA_ASSETS = {
+  hero: "/images/interior/684346143_18008455493854706_747260011986287000_n.webp",
+  heroSecondary: "/images/menu/SaveClip.App_888032776_18113829044104627_1300145488063310653_n.webp",
+  storefront: "/images/interior/680879817_18008455670854706_76867873847723268_n.webp",
+  diningRoom: "/images/interior/681051026_18008455484854706_3920163127654499683_n.webp",
+  coffeeBar: "/images/interior/681292662_18008455514854706_4910375475797540830_n.webp",
+  patio: "/images/interior/682446864_18008455688854706_4294520458666325932_n.webp",
+  interiorDetail: "/images/interior/681979334_18008455661854706_7082734117540359769_n.webp",
+  banquette: "/images/interior/684677260_18008455631854706_1264403882099556184_n.webp",
+  kinderhome: "/images/kinderhome/849891037_18468025729189549_4936899911133302784_n.webp",
+  kinderhome2: "/images/kinderhome/snaptik-app-7693862920089865479-slide-1.webp",
+  kinderhome3: "/images/kinderhome/snaptik-app-7693862920089865479-slide-2.webp",
+  kinderhome4: "/images/kinderhome/snaptik-app-7693862920089865479-slide-3.webp",
+  kinderhome5: "/images/kinderhome/snaptik-app-7693862920089865479-slide-4.webp",
+  pastryDisplay: "/images/menu/SaveClip.App_860020752_18113829017104627_9015376755320668436_n.webp",
+  breakfastSpread: "/images/menu/SaveClip.App_888505293_18113829035104627_7268554007353652308_n.webp",
+  cinnamonRolls: "/images/menu/SaveClip.App_888740528_18113829083104627_4556047435483886719_n.webp",
+  croissants: "/images/menu/SaveClip.App_888778414_18113829008104627_6332187433577426134_n.webp",
+  cakeShowcase: "/images/menu/SaveClip.App_890020227_18113829080104627_1744395925879195052_n.webp",
+  videoWalkthrough: "/video/brun-walkthrough-9-16.mp4",
+  videoWalkthroughPoster: "/video/brun-video-poster.webp",
+  videoAtmosphere: "/video/brun-atmosphere-cinematic.mp4",
+  videoAtmospherePoster: "/video/brun-atmosphere-poster.webp",
+  videoCraft: "/video/brun-craft-pastry.mp4",
+  videoCraftPoster: "/video/brun-craft-poster.webp",
+  videoReview: "/video/brun-review-9-16.mp4",
+  videoReviewPoster: "/video/brun-review-poster.webp",
+  videoPoster: "/video/brun-video-poster.webp",
+  videoSnaptik1: "/video/snaptik_7691011488131190024_v3.mp4",
+  videoSnaptik2: "/video/snaptik_7692001063179914514_v3.mp4",
+  heroInteriorVideo: "/video/brun-hero-interior.mp4",
+  heroInteriorPoster: "/video/brun-hero-dining-poster.jpg",
+  heroOlivePoster: "/video/brun-hero-interior-poster.jpg",
+};
+

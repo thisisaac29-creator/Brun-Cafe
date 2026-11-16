@@ -1,0 +1,114 @@
+[
+  {
+    "start_ms": 631,
+    "from_fcp_ms": -2368,
+    "duration_ms": 218,
+    "activity": "DocumentLoader::CommitNavigation 203ms / DocumentLoader::StartLoadingResponse 187ms / DocumentLoader::CreateParserPostCommit 186ms / LocalWindowProxy::Initialize 150ms",
+    "cpu": "(program) 133ms / (anonymous)@_lighthouse-eval.js:7 10ms / (anonymous)@_lighthouse-eval.js:1 1ms / (idle) 1ms"
+  },
+  {
+    "start_ms": 922,
+    "from_fcp_ms": -2076,
+    "duration_ms": 740,
+    "activity": "Layout 677ms / UpdateLayoutTree 58ms / UpdateLayoutTree 1ms / Layout 1ms",
+    "cpu": "(program) 740ms"
+  },
+  {
+    "start_ms": 1719,
+    "from_fcp_ms": -1279,
+    "duration_ms": 1255,
+    "activity": "Layout 860ms / UpdateLayoutTree 303ms / Paint 38ms / PrePaint 18ms",
+    "cpu": "(program) 1255ms"
+  },
+  {
+    "start_ms": 3044,
+    "from_fcp_ms": 45,
+    "duration_ms": 70,
+    "activity": "EvaluateScript 69ms 794-268803444e87b940.js / v8.compile 66ms 794-268803444e87b940.js / ScriptCatchup 4ms / ScriptCompiled 2ms ",
+    "cpu": "(program) 69ms / (anonymous)@794-268803444e87b940.js:0 1ms"
+  },
+  {
+    "start_ms": 3114,
+    "from_fcp_ms": 116,
+    "duration_ms": 89,
+    "activity": "UpdateLayoutTree 3ms / PrePaint 2ms / Commit 0ms / IntersectionObserverController::computeIntersections 0ms",
+    "cpu": "(program) 88ms"
+  },
+  {
+    "start_ms": 3217,
+    "from_fcp_ms": 218,
+    "duration_ms": 578,
+    "activity": "EvaluateScript 576ms webpack-b2d5cf2be505bd53.js / ScriptCompiled 573ms  / v8.run 573ms / RunMicrotasks 96ms",
+    "cpu": "s@webpack-b2d5cf2be505bd53.js:59 419ms / 9248@4bd1b696-c7408084347438ae.js:81 12ms / i@webpack-b2d5cf2be505bd53.js:3103 8ms / (program) 8ms"
+  },
+  {
+    "start_ms": 3978,
+    "from_fcp_ms": 980,
+    "duration_ms": 169,
+    "activity": "ParseHTML 168ms / EvaluateScript 167ms  / ScriptCompiled 164ms  / v8.run 164ms",
+    "cpu": "(program) 13ms / (anonymous)@794-268803444e87b940.js:64143 10ms / d@794-268803444e87b940.js:28356 10ms / w@794-268803444e87b940.js:28076 8ms"
+  },
+  {
+    "start_ms": 4571,
+    "from_fcp_ms": 1573,
+    "duration_ms": 117,
+    "activity": "Layout 100ms / Paint 7ms / PrePaint 3ms / UpdateLayoutTree 3ms",
+    "cpu": "(program) 116ms"
+  },
+  {
+    "start_ms": 5048,
+    "from_fcp_ms": 2049,
+    "duration_ms": 117,
+    "activity": "Layout 81ms / EventDispatch 4ms / UpdateLayoutTree 3ms / EventDispatch 1ms",
+    "cpu": "(program) 117ms"
+  },
+  {
+    "start_ms": 5278,
+    "from_fcp_ms": 2279,
+    "duration_ms": 569,
+    "activity": "Layout 353ms / UpdateLayoutTree 187ms / DocumentLoader::CommitNavigation 6ms / DecodedDataDocumentParser::AppendBytes 4ms",
+    "cpu": "(program) 569ms"
+  },
+  {
+    "start_ms": 6177,
+    "from_fcp_ms": 3179,
+    "duration_ms": 87,
+    "activity": "v8.callFunction 87ms / FunctionCall 86ms 794-268803444e87b940.js / RunMicrotasks 1ms / V8.StackGuard 1ms",
+    "cpu": "ug@4bd1b696-c7408084347438ae.js:110296 12ms / g@437-df77b441101c1a02.js:3847 9ms / (anonymous)@794-268803444e87b940.js:15268 8ms / sL@4bd1b696-c7408084347438ae.js:146088 8ms"
+  },
+  {
+    "start_ms": 6638,
+    "from_fcp_ms": 3640,
+    "duration_ms": 58,
+    "activity": "UpdateLayoutTree 26ms / Layerize 6ms / Paint 5ms / PrePaint 3ms",
+    "cpu": "(program) 57ms / (idle) 1ms"
+  },
+  {
+    "start_ms": 6745,
+    "from_fcp_ms": 3747,
+    "duration_ms": 59,
+    "activity": "Layerize 6ms / UpdateLayoutTree 4ms / Commit 3ms / PrePaint 3ms",
+    "cpu": "(program) 57ms / (idle) 2ms"
+  },
+  {
+    "start_ms": 7431,
+    "from_fcp_ms": 4433,
+    "duration_ms": 61,
+    "activity": "Layerize 11ms / UpdateLayoutTree 10ms / Commit 4ms / Paint 3ms",
+    "cpu": "(program) 60ms / nR@4bd1b696-c7408084347438ae.js:20105 0ms / nH@4bd1b696-c7408084347438ae.js:21146 0ms / nj@4bd1b696-c7408084347438ae.js:20969 0ms"
+  },
+  {
+    "start_ms": 7612,
+    "from_fcp_ms": 4614,
+    "duration_ms": 60,
+    "activity": "v8.callFunction 59ms / FunctionCall 57ms 794-268803444e87b940.js / V8.StackGuard 2ms / V8.HandleInterrupts 2ms",
+    "cpu": "removeChild 10ms / nm@4bd1b696-c7408084347438ae.js:11706 9ms / uc@4bd1b696-c7408084347438ae.js:107910 6ms / (program) 4ms"
+  },
+  {
+    "start_ms": 7681,
+    "from_fcp_ms": 4683,
+    "duration_ms": 64,
+    "activity": "UpdateLayoutTree 19ms / Layerize 9ms / Paint 5ms / Commit 4ms",
+    "cpu": "(program) 62ms / (idle) 1ms / (anonymous)@4bd1b696-c7408084347438ae.js:156067 1ms / nR@4bd1b696-c7408084347438ae.js:20105 0ms"
+  }
+]
